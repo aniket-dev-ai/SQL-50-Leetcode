@@ -8,5 +8,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0595-big-countries](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/0595-big-countries/) | Easy |
 | [1148-article-views-i](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/1148-article-views-i/) | Easy |
+| [1683-invalid-tweets](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/1683-invalid-tweets/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/aniket-dev-ai/SQL-50-Leetcods/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
