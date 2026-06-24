@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0197-rising-temperature](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/0197-rising-temperature/) | Easy |
+| [0577-employee-bonus](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/0577-employee-bonus/) | Easy |
 | [0595-big-countries](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/0595-big-countries/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/1068-product-sales-analysis-i/) | Easy |
 | [1148-article-views-i](https://github.com/aniket-dev-ai/SQL-50-Leetcode/tree/main/1148-article-views-i/) | Easy |
