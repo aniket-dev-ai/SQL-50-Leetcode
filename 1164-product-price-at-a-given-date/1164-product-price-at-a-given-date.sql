@@ -2,7 +2,7 @@
 SELECT p1.product_id, new_price AS price
 FROM Products p1
 WHERE (p1.product_id, p1.change_date) IN (
-    SELECT product_id, MAX(change_date) AS recent_date
+    SELECT product_id, MAX(change_date)
     FROM Products
     WHERE change_date <= '2019-08-16'
     GROUP BY product_id
