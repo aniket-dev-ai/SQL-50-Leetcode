@@ -1,11 +1,12 @@
 SELECT
     ROUND(
-        100 * AVG(order_date = customer_pref_delivery_date),
+        AVG(order_date = customer_pref_delivery_date) * 100,
         2
     ) AS immediate_percentage
 FROM Delivery d
-WHERE order_date = (
-    SELECT MIN(order_date)
+JOIN (
+    SELECT customer_id, MIN(order_date) AS order_date
     FROM Delivery
-    WHERE customer_id = d.customer_id
-);
+    GROUP BY customer_id
+) t
+USING(customer_id, order_date);
