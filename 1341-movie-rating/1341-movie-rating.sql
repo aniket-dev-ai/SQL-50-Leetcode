@@ -13,7 +13,7 @@ FROM
         LIMIT 1
     )
 
-    UNION
+    UNION all
 
     (
         SELECT
